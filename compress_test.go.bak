@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ggscllc/websocket/internal/test/assert"
-	"github.com/ggscllc/websocket/internal/test/xrand"
+	"nhooyr.io/websocket/internal/test/assert"
+	"nhooyr.io/websocket/internal/test/xrand"
 )
 
 func Test_slidingWindow(t *testing.T) {

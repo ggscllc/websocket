@@ -13,7 +13,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ggscllc/websocket/internal/test/assert"
+	"nhooyr.io/websocket/internal/test/assert"
 )
 
 func TestBadDials(t *testing.T) {
@@ -34,11 +34,11 @@ func TestBadDials(t *testing.T) {
 			},
 			{
 				name: "badURLScheme",
-				url:  "ftp://github.com/ggscllc",
+				url:  "ftp://nhooyr.io",
 			},
 			{
 				name: "badTLS",
-				url:  "wss://totallyfake.github.com/ggscllc",
+				url:  "wss://totallyfake.nhooyr.io",
 			},
 			{
 				name: "badReader",
