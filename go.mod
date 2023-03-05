@@ -1,4 +1,4 @@
-module nhooyr.io/websocket
+module github.com/ggscllc/websocket
 
 go 1.19
 
@@ -10,6 +10,7 @@ require (
 	github.com/gorilla/websocket v1.5.0
 	github.com/klauspost/compress v1.16.0
 	golang.org/x/time v0.3.0
+	nhooyr.io/websocket v1.8.7
 )
 
 require (
@@ -36,8 +37,6 @@ require (
 	golang.org/x/net v0.7.0 // indirect
 	golang.org/x/sys v0.6.0 // indirect
 	golang.org/x/text v0.8.0 // indirect
-	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
 	google.golang.org/protobuf v1.28.1 // indirect
-	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
